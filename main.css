@@ -4,18 +4,27 @@ html, body{
 }
 #header, #footer{
     height:10%;
-    background: darkgray;
+    background: #1a1b1c;
 }
 #body{
     height:80%;
+    background: bisque;
+    display: flex;
+}
+.gamedescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.videocontainer{
+    display: inline-block;
+    overflow:hidden;
+    width: 100%;
+    height: 100%;
 }
 #backgroundVideo {
-    position: absolute;
-    bottom: 15%;
-    top:40%;
-    height:45%;
     width: 100%;
-    z-index: -100;
     filter: opacity(90%);
 }
 

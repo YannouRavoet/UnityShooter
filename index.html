@@ -9,26 +9,34 @@
 </head>
 <body>
 
-  <div class="container-fluid" id="header"></div>
+  <div id="header"></div>
+  <div id="body">
+    <div class="row align-items-center justify-content-center" style="margin: 0;">
+      <div class="col-md-5 gamedescription" style="height: fit-content;">
+          <h1>Top Down Shooter</h1>
+          <br>
+          <p>A top down shooter game made from the tutorial by Sebastian Lague:
+            <a href="https://www.youtube.com/watch?v=SviIeTt2_Lc&list=PLFt_AvWsXl0ctd4dgE1F8g3uec4zKNRV0"> 'Unity Create a Game Series'</a>.
+          </p>
+          <p>Control your character's movement with W,A,S,D and aim with the mouse.</p>
+          <p> Battle your way through 4 unique levels with different enemies to reach the final infinity wave.</p>
+          <p> Stay on the move and dodge attack while reloading your gun... but try not to fall of the map.</p>
+          <br><br>
+          <a href="play.html">
+            <img class="roundedCorners img-fluid" src="resources/images/play.jpg" style = "width: 150px; height:70px;">
+          </a>
+      </div>
 
-  <div class="container-fluid d-flex justify-content-center" id="body">
-    <video autoplay muted loop id="backgroundVideo">
-      <source src="resources/videos/BackgroundVideo.mp4" type="video/mp4">
-    </video>
-    <div class="text-center">
-      <br>
-      <h1>Top Down Shooter</h1>
-      <br>
-      <p>A top down shooter game made from the tutorial by Sebastian Lague:
-        <a href="https://www.youtube.com/watch?v=SviIeTt2_Lc&list=PLFt_AvWsXl0ctd4dgE1F8g3uec4zKNRV0"> 'Unity Create a Game Series'</a>.
-      </p>
-      <br><br>
-      <a href="play.html">
-        <img class="roundedCorners img-fluid" src="resources/images/play.jpg" width="150" height="70">
-      </a>
+      <div class="col-md-5" style="padding: 0;">
+        <div class="videocontainer">
+          <video autoplay muted loop id="backgroundVideo">
+            <source src="resources/videos/BackgroundVideo.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+
     </div>
   </div>
-
-  <div class="container-fluid" id="footer"> </div>
+  <div id="footer"> </div>
 </body>
 </html>
